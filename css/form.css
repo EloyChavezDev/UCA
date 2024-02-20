@@ -7,11 +7,11 @@ h4 {
 }
 
 p {
-    text-decoration: aqua;
+    color: aqua;
 }
 
 .divfooter {
     p {
-        text-decoration: red;
+        color: red;
     }
 }
