@@ -9,3 +9,9 @@ h4 {
 p {
     text-decoration: aqua;
 }
+
+.divfooter {
+    p {
+        text-decoration: red;
+    }
+}
