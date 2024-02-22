@@ -15,3 +15,11 @@ p {
         color: red;
     }
 }
+
+.botonjs {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
