@@ -66,6 +66,7 @@ function mostrarDatos() {
     // Previene que el formulario se envíe
     return false;
 
+    setTimeout(function() {
     // Obtiene los parámetros de la URL
     const urlParams = new URLSearchParams(window.location.search);
 
@@ -78,6 +79,7 @@ function mostrarDatos() {
     document.getElementById("nombre").innerHTML = nombre;
     document.getElementById("correo").innerHTML = correo;
     document.getElementById("direccion4").innerHTML = direccion;
+    }, 3000);
   }
 
 
