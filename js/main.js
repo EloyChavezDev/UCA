@@ -64,7 +64,7 @@ function mostrarDatos() {
     const direccion4 = document.getElementById("direccion4").value;
   
     // Crea la URL con los parámetros
-    const url = "otra-pagina.html?nombre=" + nombre4 + "&correo=" + correo4 + "&direccion=" + direccion4;
+    const url = "https://eloychavezdev.github.io/UCA/resultado?nombre=" + nombre4 + "&correo=" + correo4 + "&direccion=" + direccion4;
   
     // Redirige al usuario a la otra página
     window.location.href = url;
