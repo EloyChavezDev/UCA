@@ -63,27 +63,21 @@ function mostrarDatos() {
     const correo4 = document.getElementById("correo4").value;
     const direccion4 = document.getElementById("direccion4").value;
   
-    // Crea la URL con los parámetros
-    const url = "https://eloychavezdev.github.io/UCA/tarea?nombre=" + nombre4 + "&correo=" + correo4 + "&direccion=" + direccion4;
-  
-    // Redirige al usuario a la otra página
-    window.location.href = url;
-  
     // Previene que el formulario se envíe
     return false;
-    
+
     // Obtiene los parámetros de la URL
     const urlParams = new URLSearchParams(window.location.search);
 
     // Obtiene los valores de los parámetros
     const nombre = urlParams.get("nombre");
     const correo = urlParams.get("correo");
-    const direccion = urlParams.get("direccion");
+    const direccion = urlParams.get("direccion4");
 
     // Muestra los datos al usuario
     document.getElementById("nombre").innerHTML = nombre;
     document.getElementById("correo").innerHTML = correo;
-    document.getElementById("direccion").innerHTML = direccion;
+    document.getElementById("direccion4").innerHTML = direccion;
   }
 
 
