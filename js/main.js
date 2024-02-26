@@ -55,3 +55,34 @@ function mostrarDatos() {
     // Previene que el formulario se envíe
     return false;
   }
+
+  //Solucion 4
+  function enviarDatos() {
+    // Obtiene los valores de los campos
+    const nombre4 = document.getElementById("nombre4").value;
+    const correo4 = document.getElementById("correo4").value;
+    const direccion4 = document.getElementById("direccion4").value;
+  
+    // Crea la URL con los parámetros
+    const url = "otra-pagina.html?nombre=" + nombre4 + "&correo=" + correo4 + "&direccion=" + direccion4;
+  
+    // Redirige al usuario a la otra página
+    window.location.href = url;
+  
+    // Previene que el formulario se envíe
+    return false;
+  }
+
+  //Otra pagina solucion 4
+  // Obtiene los parámetros de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // Obtiene los valores de los parámetros
+    const nombre = urlParams.get("nombre");
+    const correo = urlParams.get("correo");
+    const direccion = urlParams.get("direccion");
+
+    // Muestra los datos al usuario
+    document.getElementById("nombre").innerHTML = nombre;
+    document.getElementById("correo").innerHTML = correo;
+    document.getElementById("direccion").innerHTML = direccion;
