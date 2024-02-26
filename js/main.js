@@ -71,10 +71,8 @@ function mostrarDatos() {
   
     // Previene que el formulario se envíe
     return false;
-  }
-
-  //Otra pagina solucion 4
-  // Obtiene los parámetros de la URL
+    
+    // Obtiene los parámetros de la URL
     const urlParams = new URLSearchParams(window.location.search);
 
     // Obtiene los valores de los parámetros
@@ -86,3 +84,7 @@ function mostrarDatos() {
     document.getElementById("nombre").innerHTML = nombre;
     document.getElementById("correo").innerHTML = correo;
     document.getElementById("direccion").innerHTML = direccion;
+  }
+
+
+  
