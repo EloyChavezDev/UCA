@@ -44,13 +44,13 @@ function mostrarDatos() {
     const datosElement = document.getElementById("datos");
   
     // Crea un mensaje con todos los datos
-    const mensaje = "<h2>Datos capturados</h2>" +
+    const mensaje2 = "<h2>Datos capturados</h2>" +
                    "<p>Nombre: " + nombre3 + "</p>" +
                    "<p>Correo electrónico: " + correo3 + "</p>" +
                    "<p>Dirección: " + direccion3 + "</p>";
   
     // Inserta el mensaje en el elemento
-    datosElement.innerHTML = mensaje;
+    datosElement.innerHTML = mensaje2;
   
     // Previene que el formulario se envíe
     return false;
