@@ -17,14 +17,14 @@ function mostrarNombre() {
 //Solucion 2
 function mostrarDatos() {
     // Obtiene los valores de los campos
-    const nombre = document.getElementById("nombre").value;
-    const correo = document.getElementById("correo").value;
-    const direccion = document.getElementById("direccion").value;
+    const nombre = document.getElementById("nombre2").value;
+    const correo = document.getElementById("correo2").value;
+    const direccion = document.getElementById("direccion2").value;
   
     // Crea un mensaje con todos los datos
-    const mensaje = "Nombre: " + nombre + "\n" +
-                   "Correo electrónico: " + correo + "\n" +
-                   "Dirección: " + direccion;
+    const mensaje = "Nombre: " + nombre2 + "\n" +
+                   "Correo electrónico: " + correo2 + "\n" +
+                   "Dirección: " + direccion2;
   
     // Muestra la información en una ventana emergente
     alert(mensaje);
@@ -36,18 +36,18 @@ function mostrarDatos() {
 //Solucion 3
   function mostrarDatos() {
     // Obtiene los valores de los campos
-    const nombre = document.getElementById("nombre").value;
-    const correo = document.getElementById("correo").value;
-    const direccion = document.getElementById("direccion").value;
+    const nombre = document.getElementById("nombre3").value;
+    const correo = document.getElementById("correo3").value;
+    const direccion = document.getElementById("direccion3").value;
   
     // Crea un elemento para mostrar los datos
     const datosElement = document.getElementById("datos");
   
     // Crea un mensaje con todos los datos
     const mensaje = "<h2>Datos capturados</h2>" +
-                   "<p>Nombre: " + nombre + "</p>" +
-                   "<p>Correo electrónico: " + correo + "</p>" +
-                   "<p>Dirección: " + direccion + "</p>";
+                   "<p>Nombre: " + nombre3 + "</p>" +
+                   "<p>Correo electrónico: " + correo3 + "</p>" +
+                   "<p>Dirección: " + direccion3 + "</p>";
   
     // Inserta el mensaje en el elemento
     datosElement.innerHTML = mensaje;
