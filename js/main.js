@@ -17,9 +17,9 @@ function mostrarNombre() {
 //Solucion 2
 function mostrarDatos() {
     // Obtiene los valores de los campos
-    const nombre = document.getElementById("nombre2").value;
-    const correo = document.getElementById("correo2").value;
-    const direccion = document.getElementById("direccion2").value;
+    const nombre2 = document.getElementById("nombre2").value;
+    const correo2 = document.getElementById("correo2").value;
+    const direccion2 = document.getElementById("direccion2").value;
   
     // Crea un mensaje con todos los datos
     const mensaje = "Nombre: " + nombre2 + "\n" +
@@ -36,9 +36,9 @@ function mostrarDatos() {
 //Solucion 3
   function mostrarDatos() {
     // Obtiene los valores de los campos
-    const nombre = document.getElementById("nombre3").value;
-    const correo = document.getElementById("correo3").value;
-    const direccion = document.getElementById("direccion3").value;
+    const nombre3 = document.getElementById("nombre3").value;
+    const correo3 = document.getElementById("correo3").value;
+    const direccion3 = document.getElementById("direccion3").value;
   
     // Crea un elemento para mostrar los datos
     const datosElement = document.getElementById("datos");
