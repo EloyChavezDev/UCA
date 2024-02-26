@@ -56,31 +56,5 @@ function mostrarDatos() {
     return false;
   }
 
-  //Solucion 4
-  function enviarDatos() {
-    // Obtiene los valores de los campos
-    const nombre4 = document.getElementById("nombre4").value;
-    const correo4 = document.getElementById("correo4").value;
-    const direccion4 = document.getElementById("direccion4").value;
-  
-    // Previene que el formulario se envíe
-    return false;
-
-    setTimeout(function() {
-    // Obtiene los parámetros de la URL
-    const urlParams = new URLSearchParams(window.location.search);
-
-    // Obtiene los valores de los parámetros
-    const nombre = urlParams.get("nombre");
-    const correo = urlParams.get("correo");
-    const direccion = urlParams.get("direccion4");
-
-    // Muestra los datos al usuario
-    document.getElementById("nombre").innerHTML = nombre;
-    document.getElementById("correo").innerHTML = correo;
-    document.getElementById("direccion4").innerHTML = direccion;
-    }, 3000);
-  }
-
 
   
