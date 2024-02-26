@@ -34,7 +34,7 @@ function mostrarDatos() {
   }
 
 //Solucion 3
-  function mostrarDatos() {
+  function mostrarDatos2() {
     // Obtiene los valores de los campos
     const nombre3 = document.getElementById("nombre3").value;
     const correo3 = document.getElementById("correo3").value;
