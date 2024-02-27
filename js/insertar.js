@@ -10,7 +10,7 @@ function cambiarContenido2(){
     var div = document.getElementById("miDiv");
 
     //creamos nuevo nodo de texto
-    var nuevoTexto = document.createElement("nuevoTexto");
+    var nuevoTexto = document.createTextNode("h1");
     nuevoTexto.textContent("Titulo Nuevo 2 hecho con createTextNode");
 
     //Agregamos el nodo al div
