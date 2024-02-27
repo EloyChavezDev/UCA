@@ -11,7 +11,7 @@ function cambiarContenido2(){
 
     //creamos nuevo nodo de texto
     var nuevoTexto = document.createTextNode("h1");
-    nuevoTexto.textContent("Titulo Nuevo 2 hecho con createTextNode");
+    nuevoTexto.textContent= "Titulo Nuevo 2 hecho con createTextNode";
 
     //Agregamos el nodo al div
     div.appendChild(nuevoTexto);
