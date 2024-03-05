@@ -22,3 +22,16 @@ function cambiarContenido2(){
     //Agregamos el parrafo al div
     div.appendChild(nuevoParrafo);
 }
+
+function pedirGalletas(){
+  // Simulamos una peticion al servidor
+  const pedido = "Galletas de chocolate";
+
+  // Creamos la respuesta
+  const respuesta = 'Tu pedido de ${pedido} ha sido enviado';
+
+  // Mostramos la respuesta al cliente
+  const elementosRespuesta = document.getElementById("respuesta");
+  elementosRespuesta.textContent = respuesta;
+  elementosRespuesta.style.display="block";
+}
