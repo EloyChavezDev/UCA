@@ -40,6 +40,10 @@
             document.getElementById("result").innerText = currentInput;
         }
 
+        function setOperator(operator) {
+            currentOperator = operator;
+        }
+
         function calculate() {
             // Realiza la operación según el operador seleccionado
             if (currentOperator === "+") {
