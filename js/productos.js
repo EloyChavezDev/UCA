@@ -1,5 +1,5 @@
 const xhr = new XMLHttpRequest();
-xhr.open('GET', 'productos.json');
+xhr.open('GET', 'https://eloychavezdev.github.io/UCA/JSON/productos.json');
 xhr.onload = function() {
   if (xhr.status === 200) {
     const productos = JSON.parse(xhr.responseText);
